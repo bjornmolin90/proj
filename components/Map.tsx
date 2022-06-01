@@ -1,6 +1,5 @@
 import { Text, View } from 'react-native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
 import TrainData from './TrainData.tsx';
 import SurroundingsView from './SurroundingsView.tsx';
 

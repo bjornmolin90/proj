@@ -1,4 +1,4 @@
-import { render, fireEvent } from '@testing-library/react-native';
+import { render } from '@testing-library/react-native';
 import SurroundingsView from '../components/SurroundingsView';
 
 const navigation = () => false;
@@ -13,7 +13,7 @@ const route = {
 }
 
 
-test('Testig TrainData', async () => {
+test('Testig SurroundingsView', async () => {
     const { getByText, getByTestId, getByA11yLabel } = render(<SurroundingsView
                 route={route}
                 navigation={navigation}

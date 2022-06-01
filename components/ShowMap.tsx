@@ -4,7 +4,6 @@ import { Base, Typography } from '../styles';
 import MapView from 'react-native-maps';
 import { Marker } from 'react-native-maps';
 import * as Location from 'expo-location';
-import {DevSettings} from 'react-native';
 
 export default function showMap({ delayList, stationList, allStations, navigation }) {
     const [locationMarker, setLocationMarker] = useState(null);
@@ -74,7 +73,6 @@ export default function showMap({ delayList, stationList, allStations, navigatio
                                 lat: station.Lat,
                                 long: station.Long,
                                 name: station.Name,
-                                endStation: delays[0]
                             });
                         }
                     }

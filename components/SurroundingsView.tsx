@@ -5,7 +5,6 @@ import MapView from 'react-native-maps';
 import { Marker } from 'react-native-maps';
 import { Circle } from 'react-native-maps';;
 import * as Location from 'expo-location';
-import {DevSettings} from 'react-native';
 
 export default function showSurroundings({ route, navigation }) {
 
