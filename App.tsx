@@ -18,7 +18,7 @@ const routeIcons = {
 export default function App() {
   const [delays, setDelays] = useState([]);
   const [stations, setStations] = useState([]);
-  const [allOrders, setAllOrders] = useState([]);
+  
   return (
     <SafeAreaView style={Base.container}>
       <NavigationContainer>
